@@ -1,0 +1,33 @@
+ol{
+    list-style: none;
+}
+.items{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:10px;
+}
+li{
+    margin :10px;
+    width:250px;
+    text-align: left;
+    color: #364968;
+    font-size: 25px;
+    font-weight:normal;
+    font-family: 'Josefin Sans', sans-serif;
+
+   
+}
+button{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color:white;
+    background-color: #fa4848;
+    transition:.5s width,.5s height;
+}
+button:hover{
+    box-shadow: 2px 2px 5px black;
+
+}
